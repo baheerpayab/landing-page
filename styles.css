@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700&display=swap');
 
 body {
-    background-color: #1F2937;
+    /*background-color: #1F2937;*/
+    background-image: linear-gradient(to bottom right, #1F2937, #000c29);
     font-family: 'Barlow Condensed', arial;
 }
 
@@ -91,14 +92,13 @@ body {
     width: 100%;
 }
 
-
-
 /* Info */
 
 .info {
     background-color: #F9FAF8;
     padding: 0 10vw;
     color: #1F2937;
+    padding-bottom: 100px;
 }
 
 .info h2 {
@@ -106,8 +106,29 @@ body {
     font-weight: 700;
     color: #1F2937;
     text-align: center;
+    padding-top: 70px;
 }
 
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    }
+
+.features img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #1F2937;
+    border-radius: 15px;
+    }
+
+.features p {
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+}
 
 /* Quote */
 
